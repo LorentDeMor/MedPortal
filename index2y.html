@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>MedPortal</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Страница №2, попадём, если ответим "Да"</h1>
+      <p>
+        Хорошо, Вы успешно прошли на страницу номер два и это означает, что всё
+        работает.
+      </p>
+      <p>Предположительно на Гитхабе.</p>
+      <h3>
+        Скорее всего, если наш проэкт получит развитие, то вряд ли мы сможем
+        ограничиться простыми "Да" или "Нет". Я думаю, что понадобится выбирать
+        из нескольких пунктов, чтото конкретное. Давайте тепрь выберм несколько
+        пунктов, который соответствуют истине:
+      </h3>
+      <div>
+        <input type="radio" id="1" class="opros" name="opr1" value="111" />
+        <label for="2">Я хорошо выспался</label><br />
+        <input type="radio" id="2" class="opros" name="opr1" value="222" />
+        <label for="1">Я плохо спал</label>
+      </div>
+      <br />
+      <div>
+        <input type="radio" id="3" value="333" class="opros1" name="opr2" />
+        <label for="2">Я полон сил</label><br />
+        <input type="radio" id="4" value="444" class="opros1" name="opr2" />
+        <label for="1">Я уставший</label>
+      </div>
+      <br />
+      <div>
+        <input type="radio" id="5" value="555" class="opros2" name="opr3" />
+        <label for="2">У меня прекрастное настроение</label><br />
+        <input type="radio" id="6" value="666" class="opros2" name="opr3" />
+        <label for="1">Чувствую себя не очень</label>
+      </div>
+      <br />
+      <button class="cl">Готово</button>
+      <br />
+      <div class="output"></div>
+      <div class="output1"></div>
+      <div class="output2"></div>
+    </div>
+    <script src="upr.js"></script>
+  </body>
+</html>
